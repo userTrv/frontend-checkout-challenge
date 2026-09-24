@@ -1,7 +1,9 @@
-# Ваш фронтенд
+# @checkout/web
 
-Добавьте сюда приложение на React и TypeScript. Назовите workspace `@checkout/web`, добавьте его зависимости и команды запуска в своём решении.
+Фронтенд магазина: React 19, TypeScript, Vite. Запуск, устройство и проверенные сценарии описаны в [README в корне репозитория](../../README.md).
 
-Условия: [задание](../../docs/ASSIGNMENT.md). API: [интеграция](../../docs/INTEGRATION.md).
-
-[Критерии оценки](../../docs/EVALUATION.md).
+```sh
+npm run dev:web      # из корня; API должен быть запущен (npm run dev:api)
+npm run build:web
+npm run test:web
+```
